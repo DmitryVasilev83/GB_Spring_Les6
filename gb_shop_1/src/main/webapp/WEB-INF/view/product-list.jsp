@@ -13,7 +13,7 @@
 
 <ul>
     <c:forEach var="product" items="${products}">
-        <c:url var="viewUrl" value="/product/${product.id}"/>
+        <c:url var="viewUrl" value="/gb_shop/${product.id}"/>
         <li>
             <a href="${viewUrl}">View</a>
             <br>
@@ -30,7 +30,7 @@
 
 <br>
 
-<c:url var="createUrl" value="/product/create"/>
+<c:url var="createUrl" value="/gb_shop/create"/>
 <a href="${createUrl}">CREATE</a>
 
 </body>

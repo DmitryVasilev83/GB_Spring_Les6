@@ -14,7 +14,7 @@ import java.util.List;
 public class HibernateProductDao implements ProductDao {
 
     @PersistenceContext
-    private final EntityManager entityManager;
+    private EntityManager entityManager;
 
     @Override
     @Transactional(readOnly = true)
