@@ -12,7 +12,7 @@
 <h2>Product title: ${product.title}</h2>
 <h2>Product cost: ${product.cost}</h2>
 
-<c:url var="deleteUrl" value="/product/delete">
+<c:url var="deleteUrl" value="/gb_shop/delete">
     <c:param name="id" value="${product.id}"/>
 </c:url>
 
@@ -20,7 +20,7 @@
 
 <br>
 
-<c:url var="editUrl" value="/product/create"/>
+<c:url var="editUrl" value="/gb_shop/create"/>
 <a href="${editUrl}">EDIT</a>
 
 </body>
